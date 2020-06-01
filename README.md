@@ -1,4 +1,3 @@
 WELCOME
 ----
-This is my first project creating website from the ground up.
-
+This is my first project creating website using HTML and CSS.
