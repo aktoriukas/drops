@@ -1,0 +1,91 @@
+.about {
+    background: var(--primary-color);
+    color: #fff;
+    height: 100vh;
+    position: relative;
+  }
+.about ,  .text{
+  padding: 5px;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+.hover:hover{
+  background-color: grey;
+  border: 1px solid white;
+  padding: 15px;
+  border-radius: 8px;
+}
+.hover{
+  transition: border , padding 0.2s;
+}
+.about .about-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+.about-inner p {
+  flex: 0 50%;
+}
+@media (max-width: 950px){
+  .about .about-inner {
+    flex-direction: column;
+    flex: none;
+    flex-wrap: nowrap;
+  }
+  }
+
+.about:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.photo{
+border-radius: 8px;
+border: 1px solid white;
+width: 300px;
+}
+
+#about:before {
+  background: url('pictures/jiggers.jpg') no-repeat center center/cover;
+  content: '';
+}
+#events:before{
+  background: url('pictures/taures.jpg') no-repeat center center/cover;
+  content: '';
+}
+#food:before{
+  background: url('pictures/drops.jpg') no-repeat center center/cover;
+  content: '';
+}
+#raskite_mus:before{
+  background: url('pictures/drink.jpg') no-repeat center center/cover;
+  content: '';
+}
+
+.time_table{
+  margin: 50px;
+}
+.time_table{
+  background-position: center;
+  background-size: 225px;
+}
+.p_about{
+  padding: 9px;
+}
+#instagram , #facebook {
+  transition: 0.7s;
+}
+
+#instagram:hover , #facebook:hover {
+  opacity: 0.5;
+}
