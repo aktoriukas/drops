@@ -6,3 +6,5 @@ Using HTML and CSS only.
 -Hamburger menu
 -Flex
 -@media
+
+made for learning purposes.
