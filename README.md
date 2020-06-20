@@ -1,10 +1,11 @@
-WELCOME
-----
-This is my first reject creating website for local business.
-Using HTML and CSS only.
+# Bar Website
+## HTML and CSS based website
 
--Hamburger menu
--Flex
--@media
+Website made for a bar in Lithuania.
+* Burger menu
+* Flex
+* @media
+
+![LOGO](/images/index.png)
 
 made for learning purposes.
