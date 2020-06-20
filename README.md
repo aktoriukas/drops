@@ -6,6 +6,6 @@ Website made for a bar in Lithuania.
 * Flex
 * @media
 
-![LOGO](/images/index.png)
+![LOGO](/pictures/index.png)
 
 made for learning purposes.
